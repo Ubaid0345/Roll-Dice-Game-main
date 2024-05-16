@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(214, 225, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.gameHeading {
+    margin-bottom: 45px;
+    font-family: sans-serif;
+    color: rgb(47, 50, 255);
+}
+
+.fathercardsdiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    margin: 10px auto;
+}
+
+.playerCard {
+    width: 500px;
+    background-color: rgba(23, 201, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 30%);
+    color: white;
+    margin: 5px;
+    height: 250px;
+}
+
+.currentTurn {
+    background-color: rgba(23, 201, 0, 0.5);
+}
+
+.playerCard h3{
+    font-size: 25px;
+    font-family: serif;
+    margin-bottom: 25px;
+}
+
+.playerHighestScore, .playerScore{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px auto;
+    font-size: large;
+    font-weight: 400;
+}
+
+.playerHighestScore b, .playerScore b{
+    font-weight: 500;
+}
+
+.rollDice{
+    font-size: 35px;
+}
+
+.rollBtn, .switchPlayerTurn{
+    margin: 5px;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 250px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(0, 3, 196, 0.849);
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.rollBtn:hover, .switchPlayerTurn:hover{
+    background-color: rgb(47, 50, 255);
+}
+
+.none{
+    display: none !important;
+}
+
+.secondpage{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 10px 10%;
+}
+
+.btn-of-second-page{
+    width: 150px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(47, 50, 255, 0.664);
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin: 15px auto;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.headingofsecondpage{
+    color: black !important;
+}
+
+.btn-of-second-page:hover{
+    background-color: rgb(47, 50, 255);
+}
+
+.paraofsecondpage{
+    font-family: sans-serif;
+}
